@@ -1,0 +1,18 @@
+body {
+  color: #4c5057 !important;
+  max-width: 80% !important;
+  margin: 0 auto !important;
+  font-family: fantasy !important;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+}

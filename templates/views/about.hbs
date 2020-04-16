@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>About page for weather app</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<style>
+  body {
+    color: rgb(197, 219, 213);
+    max-width: 80% !important;
+    margin: 0 auto !important;
+    font-family: fantasy !important;
+  }
+
+  .h2 {
+    margin-top: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
+  }
+</style>
+
+<body>
+  {{>header}}
+  <h2 class="h2">{{title}}</h2>
+  <p>This app was created by {{name}}</p>
+  <img src="img/Karthick.png" height="50%" width="30%" />
+  {{>footer}}
+</body>
+
+</html>

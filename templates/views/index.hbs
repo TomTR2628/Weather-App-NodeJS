@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        body {
+            color: rgb(197, 219, 213);
+            max-width: 80% !important;
+            margin: 0 auto !important;
+            font-family: fantasy !important;
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <p>Use this site to get your weather!</p>
+        <form>
+            Enter the location: <input type="text" placeholder="location">
+            <button>submit</button>
+        </form>
+        <p id="messageOne"></p>
+        <p id="messageTwo"></p>
+    </div>
+
+    {{>footer}}
+</body>
+
+<script src="/js/app.js"></script>
+
+</html>
