@@ -25,7 +25,17 @@ const forecast = (latitude, longitude, callback) => {
           body.current.temperature +
           " degree celcius. Feels like " +
           body.current.feelslike +
-          " degree celcius",
+          " degree celcius. The wind will blow at a speed of " +
+          body.current.wind_speed +
+          "kms/hr from " +
+          body.current.wind_dir +
+          " and it will be " +
+          body.current.wind_degree +
+          " degree farenheit hotter. The humidity in the air will be " +
+          body.current.humidity +
+          ". There will be " +
+          body.current.cloudcover +
+          "% of the sky will be covered by clouds",
       });
     }
   });

@@ -38,7 +38,7 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help page",
     description:
-      "This app helps you in finding out the weather condition for any location in the world. You can find out the temperature, wind speed, humidity and the overall description of the weather for the day",
+      "This app helps you in finding out the weather condition for any location in the world. You can find out the temperature, wind speed, humidity and the overall description of the weather for the day. You can simply navigate between the home page, about and the help page by navigating through the Weather, About and the Help tabs at the top of the site.",
     name: "Karthick T R",
   });
 });
